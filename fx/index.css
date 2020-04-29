@@ -1,0 +1,128 @@
+#whole{
+  margin-right: auto;
+  margin-left : auto;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+table tr{
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+table th,table td{
+  text-align: center;
+  width: 25%;
+  padding: 15px 0; 
+}
+.tablePNG{
+  width:30px;
+  border: 1px #cccccc solid;
+}
+#good{
+  background:#ffffff;
+  background-image:url("png/good.png");
+  background-repeat:no-repeat;
+  border:none;
+  width:16px;
+  height:16px;
+  cursor: pointer;
+  border-radius: 0%;    
+}
+#submit{    
+  background-image:url("png/submit.png");
+  background-position: right 50% bottom 10%;
+  background-repeat:no-repeat;
+  background-color:#ffffff;
+  border:none;
+  width:40px;
+  height:40px;
+  text-indent: -9999px;
+  cursor: pointer;
+  border-radius: 50%;      
+}
+.main{
+  margin-bottom: 10px;
+  border-color: #ccc;
+  border-width: 1.0px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left : auto;
+}
+#sub{
+  display:none;
+}
+#textarea{
+  border-radius: 0.67em; 
+  width:100%;
+  box-sizing:border-box;
+  resize: none;
+  padding: 1em;
+  margin:0;
+}
+#languageIMG1{
+  display:none;
+}
+#languageIMG2{
+  position: fixed;
+  top: 5px; 
+  right: 1px;
+  padding: 6px 4px;
+  width: 60px;
+}
+@media screen and (min-width:400px){
+  #textarea{
+    width:400px;
+  }
+}
+@media screen and (min-width:700px){
+  #whole{
+    width:700px;
+  }   
+  #keiziban{
+    width:690px;
+  }     
+}
+@media screen and (min-width:950px){
+  #whole{
+    width:950px;
+
+  }
+  .main{
+    float:left;
+    width:700px;
+  }
+  #sub{
+    display: block;
+    float:right;
+    width: 200px;
+  }
+  #sub p{
+    border-bottom: 1.0px solid #cccccc;
+  }
+  .link{
+    display: none;
+  }
+}
+@media screen and (min-width:1100px){
+  #languageIMG1{
+      /* display: inline; */
+      position: fixed;
+      top: 150px; 
+      right: 10px;
+      padding: 6px 4px;
+  
+      display: inline-block;
+      text-align: center;
+    }
+    #languageIMG2{
+      display:none;
+    }
+}
+@media screen and (min-width:1350px){
+  #whole{
+      margin-left:200px;
+  }    
+}
